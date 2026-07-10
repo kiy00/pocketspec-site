@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー | PocketSpec</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+    line-height: 1.8;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px 20px 64px;
+    color: #1a1a1a;
+    background: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6e6; background: #121212; }
+    a { color: #6cb4ff; }
+  }
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.2rem; margin-top: 2em; }
+  .updated { color: #888; font-size: 0.9rem; }
+  ul { padding-left: 1.2em; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+</style>
+</head>
+<body>
+<h1>プライバシーポリシー</h1>
+<p class="updated">最終更新日: 2026年7月10日</p>
+
+<p>
+本ポリシーは、iOS アプリ「PocketSpec」（以下「本アプリ」）における利用者の情報の取り扱いについて定めるものです。
+</p>
+
+<h2>1. 基本方針</h2>
+<p>
+本アプリは、GitHub リポジトリ内の Markdown 仕様書を閲覧するための Read Only ビューアです。
+本アプリは独自のサーバーを持たず、利用者の情報を運営者（開発者）のサーバーへ送信・収集することは一切ありません。
+</p>
+
+<h2>2. 取得・保存する情報</h2>
+<p>本アプリは、利用者が本アプリを利用するために、以下の情報を<strong>利用者の端末内にのみ</strong>保存します。</p>
+<ul>
+  <li>
+    <strong>GitHub アクセストークン</strong>：GitHub へのログイン（OAuth Device Flow）または利用者が入力した
+    Personal Access Token。iOS の <strong>Keychain</strong> にのみ安全に保存され、外部へ送信されません。
+  </li>
+  <li>
+    <strong>プロジェクト設定</strong>：閲覧対象の GitHub リポジトリ名・ブランチ・ドキュメントルート・表示名などの設定情報。
+    端末内のアプリ領域に保存されます。
+  </li>
+  <li>
+    <strong>ローカルキャッシュ</strong>：取得した Markdown・画像・ファイル一覧などを、オフライン閲覧のため端末内に保存します。
+  </li>
+</ul>
+
+<h2>3. 情報の送信先</h2>
+<p>
+本アプリが通信を行う相手は、利用者自身が設定した <strong>GitHub（github.com / api.github.com）</strong> のみです。
+GitHub との通信は、仕様書ファイルの取得およびログイン認証のために行われ、GitHub のプライバシーポリシーが適用されます。
+</p>
+<ul>
+  <li>GitHub Privacy Statement: <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement</a></li>
+</ul>
+<p>
+本アプリは、利用者の情報を運営者や第三者（広告・解析事業者等）へ送信しません。広告 SDK・アクセス解析ツール・トラッキング機能は一切含みません。
+</p>
+
+<h2>4. 権限（GitHub App）</h2>
+<p>
+本アプリが GitHub に要求する権限は、仕様書の閲覧に必要な最小限のもの（Contents: 読み取り専用、Metadata: 読み取り専用）に限定されます。
+ファイルの編集・作成・削除は行いません。
+</p>
+
+<h2>5. 情報の削除</h2>
+<p>
+保存された情報は、以下の操作でいつでも削除できます。
+</p>
+<ul>
+  <li>ログアウト：Keychain 内のアクセストークンを削除します。</li>
+  <li>プロジェクト削除：該当プロジェクトの設定とローカルキャッシュを削除します。</li>
+  <li>本アプリのアンインストール：本アプリが端末内に保存したすべての情報が削除されます。</li>
+</ul>
+
+<h2>6. 子どものプライバシー</h2>
+<p>
+本アプリは特定の年齢層を対象としたものではなく、個人を特定する情報を収集しません。
+</p>
+
+<h2>7. 本ポリシーの変更</h2>
+<p>
+本ポリシーの内容は、必要に応じて変更されることがあります。変更後の内容は本ページに掲載した時点で効力を生じます。
+</p>
+
+<h2>8. お問い合わせ</h2>
+<p>
+本ポリシーおよび本アプリに関するお問い合わせは、<a href="./support.html">サポートページ</a>をご覧ください。
+</p>
+
+</body>
+</html>
